@@ -1,0 +1,28 @@
+# ---- Core API ----
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ---- Config & validation ----
+pydantic
+pydantic-settings
+email-validator
+
+# ---- Database ----
+sqlalchemy[asyncio]
+asyncpg
+alembic
+greenlet
+
+# ---- Auth & security ----
+python-jose[cryptography]
+# passlib is unmaintained (2020) and crashes with bcrypt>=5; we use bcrypt directly.
+bcrypt
+
+# ---- Cache / rate limiting ----
+redis
+
+# ---- Utilities ----
+python-slugify
+qrcode[pil]
+structlog

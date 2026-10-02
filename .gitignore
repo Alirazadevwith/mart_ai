@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Env / secrets
+.env
+.env.local
+*.pem
+
+# Node
+node_modules/
+.next/
+out/
+.expo/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

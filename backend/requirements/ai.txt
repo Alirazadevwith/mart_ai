@@ -1,0 +1,12 @@
+-r base.txt
+
+# ---- Agent orchestration ----
+langgraph
+langgraph-checkpoint-postgres
+langchain-core
+
+# ---- Pluggable LLM providers (all OpenAI-compatible except Gemini) ----
+# Grok (xAI), Groq, and OpenAI all speak the OpenAI wire format.
+langchain-openai
+# Opt-in second adapter for Gemini.
+langchain-google-genai

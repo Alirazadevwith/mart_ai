@@ -1,0 +1,14 @@
+-r base.txt
+
+# ---- Testing ----
+pytest
+pytest-asyncio
+pytest-cov
+httpx
+asgi-lifespan
+faker
+
+# ---- Quality ----
+ruff
+mypy
+types-python-slugify
